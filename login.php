@@ -1,4 +1,4 @@
-<?php
+//this is login php<?php
 include 'db.php';
 
 $username=$_POST['username'];
