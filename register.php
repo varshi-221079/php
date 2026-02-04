@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 
-$username=$_POST['username'];
+$username=$_POST['username'];   //retrive username from html file
 $email=$_POST['email'];
 $password=$_POST['password'];
 

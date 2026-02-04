@@ -1,12 +1,5 @@
 <?php
-  //datatypes
-  echo "<pre>";
-  //boolean
-  $a=10;
-  if ($a)
-  {
-    echo "$a considered as true"."\n";
-  }
+echo "<pre>";
   //string
   $name1="varshi";
   $name2='varshitha';
@@ -22,5 +15,11 @@
   echo "position of word world is".strpos("$str","world")."\n";
   echo "replacing world with my name".str_replace("world","varshi","$str")."\n";
   echo trim(" hello,world ")."\n";
+  echo strtoupper($str)."\n";
+  echo strtolower($str)."\n";
+  echo ucfirst($str)."\n";
+  echo ucword($str)."\n";
+  echo substr($str,0,5)."\n";
+  echo strcmpcase($name1,$name2);
   echo "</pre>";
 ?>
