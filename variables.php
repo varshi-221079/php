@@ -1,6 +1,6 @@
 <?php
   echo "<pre>";
-  //boolean
+  //boolean variable
   $a=true;
   if ($a)
   {
